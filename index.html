@@ -9,10 +9,9 @@
 <link rel="canonical" href="https://your-website-url.com/" />
 <meta property="og:title" content="Genae — 溫柔、真實、自由" />
 <meta property="og:description" content="以療癒 × 藝術 × 質感打造的五感品牌。遇見你的療癒夥伴，找回內心的平靜。" />
-<!-- 修正路徑：移除開頭斜線 -->
 <meta property="og:image" content="images/hero.webp" />
 
-<!-- 樣式表連結 (相對路徑) -->
+<!-- 樣式表連結 -->
 <link rel="preload" href="styles.css" as="style" />
 <link rel="stylesheet" href="styles.css" />
 </head>
@@ -41,6 +40,7 @@
   <div class="grid">
     <div class="hero-content">
       <div class="eyebrow">Gentle · Real · Free</div>
+      <!-- 排版修正：使用 no-wrap 類別確保「柔軟」不換行 -->
       <h1 id="hero-heading">以五感療癒，<br>讓世界多一點<span class="keep-together">柔軟。</span></h1>
       <p class="sub">我們相信：美不是完美，而是被理解。Genae 將療癒 × 藝術 × 質感融合為日常的呼吸——在字裡行間、色彩與香氣、身體律動與空間留白之間，<span class="keep-together">陪你找回平靜與希望。</span></p>
       <div class="cta">
@@ -51,7 +51,7 @@
     <!-- 主視覺：單張靜態圖片 -->
     <div class="hero-media" aria-hidden="true">
       <div class="media-box">
-        <!-- 修正路徑：移除開頭斜線 -->
+        <!-- 圖片修正：請確認您的圖片檔名是 hero.webp (或是 .png) -->
         <img src="images/hero.webp" alt="Genae 品牌形象 - 溫暖居家氛圍" loading="lazy" />
       </div>
     </div>
@@ -98,7 +98,6 @@
       <!-- 產品 1 -->
       <article class="card product" data-id="p1" data-name="Hope Bear" data-price="1580">
         <div class="img-wrapper">
-            <!-- 修正路徑：移除開頭斜線 -->
             <img class="product-image" src="images/bear-hope.webp" alt="Hope Bear 米白水晶絨熊" loading="lazy" />
         </div>
         <div class="product-info">
@@ -112,7 +111,6 @@
       <!-- 產品 2 -->
       <article class="card product" data-id="p2" data-name="Calm Bear" data-price="1580">
         <div class="img-wrapper">
-            <!-- 修正路徑：移除開頭斜線 -->
             <img class="product-image" src="images/bear-calm.webp" alt="Calm Bear 米白水晶絨熊" loading="lazy" />
         </div>
         <div class="product-info">
@@ -126,7 +124,7 @@
       <!-- 產品 3 -->
       <article class="card product" data-id="p3" data-name="Embrace Bear" data-price="1280">
         <div class="img-wrapper">
-            <!-- 修正路徑：移除開頭斜線 -->
+            <!-- 圖片修正：請確認您的圖片檔名是 bear-embrace.webp (或是 .png) -->
             <img class="product-image" src="images/bear-embrace.webp" alt="Embrace Bear 米白水晶絨熊" loading="lazy" />
         </div>
         <div class="product-info">
@@ -144,7 +142,7 @@
   </div>
 </section>
 
-<!-- 購物車 -->
+<!-- 購物車、理念、未來計畫、聯絡區塊 (保持不變) -->
 <div id="cart" class="cart" aria-live="polite" aria-hidden="true">
   <button id="cart-close" class="cart-close" aria-label="關閉購物車">×</button>
   <h3>購物車</h3>
@@ -158,7 +156,6 @@
   🛒 <span id="cart-count">0</span>
 </button>
 
-<!-- 品牌理念 -->
 <section id="about" class="section bg-light">
   <div class="panel no-shadow">
     <p class="quote">「美不是完美，而是被理解。」</p>
@@ -167,7 +164,6 @@
   </div>
 </section>
 
-<!-- 未來計畫 -->
 <section id="roadmap" class="section">
   <div class="panel">
     <h2 class="section-title">未來旅程</h2>
@@ -188,7 +184,6 @@
   </div>
 </section>
 
-<!-- 聯絡 -->
 <section id="contact" class="section">
   <div class="panel">
     <h2 class="section-title">聯絡與社群</h2>
@@ -219,7 +214,6 @@
   "url": "https://your-website-url.com"
 }
 </script>
-<!-- 修正路徑：移除開頭斜線 -->
 <script src="main.js" defer></script>
 </body>
 </html>
